@@ -1,0 +1,282 @@
+-- Account.csv
+copy Account from E'R:\\Account.csv' csv header ENCODING 'sjis' ;
+
+-- AccountContactRole.csv
+copy AccountContactRole from E'R:\\AccountContactRole.csv' csv header ENCODING 'sjis' ;
+
+-- Announcement.csv
+copy Announcement from E'R:\\Announcement.csv' csv header ENCODING 'sjis' ;
+
+-- Approval.csv
+copy Approval from E'R:\\Approval.csv' csv header ENCODING 'sjis' ;
+
+-- Asset.csv
+copy Asset from E'R:\\Asset.csv' csv header ENCODING 'sjis' ;
+
+-- BusinessProcess.csv
+copy BusinessProcess from E'R:\\BusinessProcess.csv' csv header ENCODING 'sjis' ;
+
+-- Campaign.csv
+copy Campaign from E'R:\\Campaign.csv' csv header ENCODING 'sjis' ;
+
+-- CampaignMember.csv
+copy CampaignMember from E'R:\\CampaignMember.csv' csv header ENCODING 'sjis' ;
+
+-- CanvasFeedItem.csv
+copy CanvasFeedItem from E'R:\\CanvasFeedItem.csv' csv header ENCODING 'sjis' ;
+
+-- Case.csv
+copy Case from E'R:\\Case.csv' csv header ENCODING 'sjis' ;
+
+-- CaseComment.csv
+copy CaseComment from E'R:\\CaseComment.csv' csv header ENCODING 'sjis' ;
+
+-- CaseContactRole.csv
+copy CaseContactRole from E'R:\\CaseContactRole.csv' csv header ENCODING 'sjis' ;
+
+-- CaseHistory2.csv
+copy CaseHistory2 from E'R:\\CaseHistory2.csv' csv header ENCODING 'sjis' ;
+
+-- CaseSolution.csv
+copy CaseSolution from E'R:\\CaseSolution.csv' csv header ENCODING 'sjis' ;
+
+-- CleanFactFieldClaim.csv
+copy CleanFactFieldClaim from E'R:\\CleanFactFieldClaim.csv' csv header ENCODING 'sjis' ;
+
+-- CollaborationFolder.csv
+copy CollaborationFolder from E'R:\\CollaborationFolder.csv' csv header ENCODING 'sjis' ;
+
+-- CollaborationFolderMember.csv
+copy CollaborationFolderMember from E'R:\\CollaborationFolderMember.csv' csv header ENCODING 'sjis' ;
+
+-- Contact.csv
+copy Contact from E'R:\\Contact.csv' csv header ENCODING 'sjis' ;
+
+-- ContentVersion.csv
+copy ContentVersion from E'R:\\ContentVersion.csv' csv header ENCODING 'sjis' ;
+
+-- Contract.csv
+copy Contract from E'R:\\Contract.csv' csv header ENCODING 'sjis' ;
+
+-- ContractContactRole.csv
+copy ContractContactRole from E'R:\\ContractContactRole.csv' csv header ENCODING 'sjis' ;
+
+-- DatacloudOwnedEntity.csv
+copy DatacloudOwnedEntity from E'R:\\DatacloudOwnedEntity.csv' csv header ENCODING 'sjis' ;
+
+-- DatacloudPurchaseUsage.csv
+copy DatacloudPurchaseUsage from E'R:\\DatacloudPurchaseUsage.csv' csv header ENCODING 'sjis' ;
+
+-- EmailDisclaimer.csv
+copy EmailDisclaimer from E'R:\\EmailDisclaimer.csv' csv header ENCODING 'sjis' ;
+
+-- EmailRoutingAddress.csv
+copy EmailRoutingAddress from E'R:\\EmailRoutingAddress.csv' csv header ENCODING 'sjis' ;
+
+-- Endorsement.csv
+copy Endorsement from E'R:\\Endorsement.csv' csv header ENCODING 'sjis' ;
+
+-- EntityHistory.csv
+copy EntityHistory from E'R:\\EntityHistory.csv' csv header ENCODING 'sjis' ;
+
+-- EntitySubscription.csv
+copy EntitySubscription from E'R:\\EntitySubscription.csv' csv header ENCODING 'sjis' ;
+
+-- Event.csv
+copy Event from E'R:\\Event.csv' csv header ENCODING 'sjis' ;
+
+-- EventRelation.csv
+copy EventRelation from E'R:\\EventRelation.csv' csv header ENCODING 'sjis' ;
+
+-- FeedComment.csv
+copy FeedComment from E'R:\\FeedComment.csv' csv header ENCODING 'sjis' ;
+
+-- FeedFieldHistory.csv
+copy FeedFieldHistory from E'R:\\FeedFieldHistory.csv' csv header ENCODING 'sjis' ;
+
+-- FeedPost.csv
+copy FeedPost from E'R:\\FeedPost.csv' csv header ENCODING 'sjis' ;
+
+-- FeedTrackedChange.csv
+copy FeedTrackedChange from E'R:\\FeedTrackedChange.csv' csv header ENCODING 'sjis' ;
+
+-- FieldHistory.csv
+copy FieldHistory from E'R:\\FieldHistory.csv' csv header ENCODING 'sjis' ;
+
+-- FiscalYearSettings.csv
+copy FiscalYearSettings from E'R:\\FiscalYearSettings.csv' csv header ENCODING 'sjis' ;
+
+-- Idea.csv
+copy Idea from E'R:\\Idea.csv' csv header ENCODING 'sjis' ;
+
+-- IdeaComment.csv
+copy IdeaComment from E'R:\\IdeaComment.csv' csv header ENCODING 'sjis' ;
+
+-- InboundSocialPost.csv
+copy InboundSocialPost from E'R:\\InboundSocialPost.csv' csv header ENCODING 'sjis' ;
+
+-- InstalledMobileApp.csv
+copy InstalledMobileApp from E'R:\\InstalledMobileApp.csv' csv header ENCODING 'sjis' ;
+
+-- InteractionInterview.csv
+copy InteractionInterview from E'R:\\InteractionInterview.csv' csv header ENCODING 'sjis' ;
+
+-- JigsawSavedSearch.csv
+copy JigsawSavedSearch from E'R:\\JigsawSavedSearch.csv' csv header ENCODING 'sjis' ;
+
+-- JobTracker.csv
+copy JobTracker from E'R:\\JobTracker.csv' csv header ENCODING 'sjis' ;
+
+-- Lead.csv
+copy Lead from E'R:\\Lead.csv' csv header ENCODING 'sjis' ;
+
+-- Macro.csv
+copy Macro from E'R:\\Macro.csv' csv header ENCODING 'sjis' ;
+
+-- MacroAction.csv
+copy MacroAction from E'R:\\MacroAction.csv' csv header ENCODING 'sjis' ;
+
+-- MatchingInformation.csv
+copy MatchingInformation from E'R:\\MatchingInformation.csv' csv header ENCODING 'sjis' ;
+
+-- MetricsTransmissionHistory.csv
+copy MetricsTransmissionHistory from E'R:\\MetricsTransmissionHistory.csv' csv header ENCODING 'sjis' ;
+
+-- NewsFeed.csv
+copy NewsFeed from E'R:\\NewsFeed.csv' csv header ENCODING 'sjis' ;
+
+-- Note.csv
+copy Note from E'R:\\Note.csv' csv header ENCODING 'sjis' ;
+
+-- NotifDeliveryUserPref.csv
+copy NotifDeliveryUserPref from E'R:\\NotifDeliveryUserPref.csv' csv header ENCODING 'sjis' ;
+
+-- Opportunity.csv
+copy Opportunity from E'R:\\Opportunity.csv' csv header ENCODING 'sjis' ;
+
+-- OpportunityCompetitor.csv
+copy OpportunityCompetitor from E'R:\\OpportunityCompetitor.csv' csv header ENCODING 'sjis' ;
+
+-- OpportunityContactRole.csv
+copy OpportunityContactRole from E'R:\\OpportunityContactRole.csv' csv header ENCODING 'sjis' ;
+
+-- OpportunityHistory.csv
+copy OpportunityHistory from E'R:\\OpportunityHistory.csv' csv header ENCODING 'sjis' ;
+
+-- OpportunityLineItem.csv
+copy OpportunityLineItem from E'R:\\OpportunityLineItem.csv' csv header ENCODING 'sjis' ;
+
+-- Order.csv
+copy Order from E'R:\\Order.csv' csv header ENCODING 'sjis' ;
+
+-- OrderItem.csv
+copy OrderItem from E'R:\\OrderItem.csv' csv header ENCODING 'sjis' ;
+
+-- OrgWideEmailAddress.csv
+copy OrgWideEmailAddress from E'R:\\OrgWideEmailAddress.csv' csv header ENCODING 'sjis' ;
+
+-- Partner.csv
+copy Partner from E'R:\\Partner.csv' csv header ENCODING 'sjis' ;
+
+-- Period.csv
+copy Period from E'R:\\Period.csv' csv header ENCODING 'sjis' ;
+
+-- Pricebook2.csv
+copy Pricebook2 from E'R:\\Pricebook2.csv' csv header ENCODING 'sjis' ;
+
+-- PricebookEntry.csv
+copy PricebookEntry from E'R:\\PricebookEntry.csv' csv header ENCODING 'sjis' ;
+
+-- ProcessInstance.csv
+copy ProcessInstance from E'R:\\ProcessInstance.csv' csv header ENCODING 'sjis' ;
+
+-- ProcessInstanceNode.csv
+copy ProcessInstanceNode from E'R:\\ProcessInstanceNode.csv' csv header ENCODING 'sjis' ;
+
+-- ProcessInstanceStep.csv
+copy ProcessInstanceStep from E'R:\\ProcessInstanceStep.csv' csv header ENCODING 'sjis' ;
+
+-- ProcessInstanceWorkitem.csv
+copy ProcessInstanceWorkitem from E'R:\\ProcessInstanceWorkitem.csv' csv header ENCODING 'sjis' ;
+
+-- Product2.csv
+copy Product2 from E'R:\\Product2.csv' csv header ENCODING 'sjis' ;
+
+-- PushIntent.csv
+copy PushIntent from E'R:\\PushIntent.csv' csv header ENCODING 'sjis' ;
+
+-- PushProfileMapping.csv
+copy PushProfileMapping from E'R:\\PushProfileMapping.csv' csv header ENCODING 'sjis' ;
+
+-- RecordOrigin.csv
+copy RecordOrigin from E'R:\\RecordOrigin.csv' csv header ENCODING 'sjis' ;
+
+-- RecordType.csv
+copy RecordType from E'R:\\RecordType.csv' csv header ENCODING 'sjis' ;
+
+-- SearchActivity.csv
+copy SearchActivity from E'R:\\SearchActivity.csv' csv header ENCODING 'sjis' ;
+
+-- SearchPromotionRule.csv
+copy SearchPromotionRule from E'R:\\SearchPromotionRule.csv' csv header ENCODING 'sjis' ;
+
+-- SocialPersona.csv
+copy SocialPersona from E'R:\\SocialPersona.csv' csv header ENCODING 'sjis' ;
+
+-- Solution.csv
+copy Solution from E'R:\\Solution.csv' csv header ENCODING 'sjis' ;
+
+-- SystemStreamingChannel.csv
+copy SystemStreamingChannel from E'R:\\SystemStreamingChannel.csv' csv header ENCODING 'sjis' ;
+
+-- Task.csv
+copy Task from E'R:\\Task.csv' csv header ENCODING 'sjis' ;
+
+-- TaskRelation.csv
+copy TaskRelation from E'R:\\TaskRelation.csv' csv header ENCODING 'sjis' ;
+
+-- TopicGroupActivity.csv
+copy TopicGroupActivity from E'R:\\TopicGroupActivity.csv' csv header ENCODING 'sjis' ;
+
+-- TopicUserActivity.csv
+copy TopicUserActivity from E'R:\\TopicUserActivity.csv' csv header ENCODING 'sjis' ;
+
+-- TransitionMessage.csv
+copy TransitionMessage from E'R:\\TransitionMessage.csv' csv header ENCODING 'sjis' ;
+
+-- TrendingTopic.csv
+copy TrendingTopic from E'R:\\TrendingTopic.csv' csv header ENCODING 'sjis' ;
+
+-- User.csv
+copy User from E'R:\\User.csv' csv header ENCODING 'sjis' ;
+
+-- UserRole.csv
+copy UserRole from E'R:\\UserRole.csv' csv header ENCODING 'sjis' ;
+
+-- WorkCoaching.csv
+copy WorkCoaching from E'R:\\WorkCoaching.csv' csv header ENCODING 'sjis' ;
+
+-- WorkFeedback.csv
+copy WorkFeedback from E'R:\\WorkFeedback.csv' csv header ENCODING 'sjis' ;
+
+-- WorkFeedbackQuestion.csv
+copy WorkFeedbackQuestion from E'R:\\WorkFeedbackQuestion.csv' csv header ENCODING 'sjis' ;
+
+-- WorkFeedbackQuestionSet.csv
+copy WorkFeedbackQuestionSet from E'R:\\WorkFeedbackQuestionSet.csv' csv header ENCODING 'sjis' ;
+
+-- WorkFeedbackRequest.csv
+copy WorkFeedbackRequest from E'R:\\WorkFeedbackRequest.csv' csv header ENCODING 'sjis' ;
+
+-- WorkGoal.csv
+copy WorkGoal from E'R:\\WorkGoal.csv' csv header ENCODING 'sjis' ;
+
+-- WorkGoalCollaborator.csv
+copy WorkGoalCollaborator from E'R:\\WorkGoalCollaborator.csv' csv header ENCODING 'sjis' ;
+
+-- WorkGoalLink.csv
+copy WorkGoalLink from E'R:\\WorkGoalLink.csv' csv header ENCODING 'sjis' ;
+
+-- WorkPerformanceCycle.csv
+copy WorkPerformanceCycle from E'R:\\WorkPerformanceCycle.csv' csv header ENCODING 'sjis' ;
+
